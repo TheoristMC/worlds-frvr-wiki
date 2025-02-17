@@ -22,7 +22,7 @@ export default defineConfig({
     sidebar: [
       {
         text: "Starting your Journey",
-        collapsed: true,
+        collapsed: false,
         items: [
           {
             text: "Lost Frontier",
@@ -32,7 +32,7 @@ export default defineConfig({
           },
           {
             text: "World Access",
-            // link: "/journey/world-access.md",
+            link: "/journey/world-access.md",
           },
         ],
       },
@@ -43,6 +43,15 @@ export default defineConfig({
           {
             text: "Texture Packs",
             link: "/documentation/texture-packs.md",
+          },
+        ],
+      },
+      {
+        text: "TriggerScripts",
+        collapsed: true,
+        items: [
+          {
+            text: "Variables",
           },
         ],
       },
