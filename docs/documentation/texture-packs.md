@@ -35,7 +35,7 @@ Download the latest set of textures listed below:
 2. Modify the textures as desired to create your custom look.
 3. Save your edited images in PNG format to maintain transparency and quality.
 
-### Applying the Texture Pack in Worlds FRVR
+### Applying the Textures
 
 Method 1: Drag & Drop (PC)
 

@@ -8,16 +8,31 @@ const head = [
       href: "https://worlds.frvr.com/a/5hRJxPmi.png",
     },
   ],
+  [
+    "meta",
+    {
+      property: "og:image",
+      content: "https://worlds.frvr.com/a/EMTERgHJ.png",
+    },
+  ],
 ];
 
 export default defineConfig({
   title: "Worlds FRVR Wiki",
+  description: "A collaborative wiki for the game Worlds FRVR",
   cleanUrls: true,
   head,
   themeConfig: {
     editLink: {
       text: "Contribute in Github",
       pattern: "https://github.com/TheoristMC/worlds-frvr-wiki",
+    },
+    footer: {
+      message: "Worlds FRVR Wiki is not affiliated in any way with FRVR.",
+      copyright: "\u00A9 \"Worlds FRVR\" is a trademark of FRVR.",
+    },
+    outline: {
+      level: [2, 3],
     },
     sidebar: [
       {
@@ -37,6 +52,20 @@ export default defineConfig({
         ],
       },
       {
+        text: "Blocks",
+        collapsed: true,
+        items: [
+          {
+            text: "Natural Blocks",
+            link: "/blocks/natural-blocks.md",
+          },
+          {
+            text: "Unnatural Blocks",
+            link: "/blocks/unnatural-blocks.md",
+          },
+        ],
+      },
+      {
         text: "Documentation",
         collapsed: true,
         items: [
@@ -48,8 +77,13 @@ export default defineConfig({
       },
       {
         text: "TriggerScripts",
+        link: "/trigger-scripts/index.md",
         collapsed: true,
         items: [
+          {
+            text: "Center",
+            link: "/trigger-scripts/center.md",
+          },
           {
             text: "Variables",
           },
