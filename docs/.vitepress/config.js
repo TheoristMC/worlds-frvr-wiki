@@ -29,7 +29,7 @@ export default defineConfig({
     },
     footer: {
       message: "Worlds FRVR Wiki is not affiliated in any way with FRVR.",
-      copyright: "\u00A9 \"Worlds FRVR\" is a trademark of FRVR.",
+      copyright: '\u00A9 "Worlds FRVR" is a trademark of FRVR.',
     },
     outline: {
       level: [2, 3],
@@ -81,11 +81,28 @@ export default defineConfig({
         collapsed: true,
         items: [
           {
+            text: "Var",
+            link: "/trigger-scripts/var.md",
+          },
+          {
             text: "Center",
             link: "/trigger-scripts/center.md",
           },
           {
-            text: "Variables",
+            text: "Jump",
+            link: "/trigger-scripts/jump.md",
+          },
+          {
+            text: "Orient",
+            link: "/trigger-scripts/orient.md",
+          },
+          {
+            text: "Say",
+            link: "/trigger-scripts/say.md",
+          },
+          {
+            text: "Waygate",
+            link: "/trigger-scripts/waygate.md",
           },
         ],
       },

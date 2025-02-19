@@ -4,17 +4,14 @@
 
 |     Type      | Description                                                                                  | Hierarchy |
 | :-----------: | -------------------------------------------------------------------------------------------- | :-------: |
-|      CSR      | Access to powerful commands such as `/banaccount`                                            |     1     |
-|   Sysadmin    | Access to most developer commands such as `/dev_emote`                                       |     2     |
-|     Team      | No additional access besides role color and the note on their profile.                       |     3     |
-|     Owner     | Access to the permissions of their own world.                                                |     4     |
-|     Admin     | Access to the owner's world, but tied to selected commands and permissions set by the owner. |     5     |
-|    Builder    | Access to building and breaking blocks/props to the world.                                   |     6     |
-| Area Builder  | Same access as Builder but tied to a specific area.                                          |     7     |
-| World Booster | Access to specific commands or permissions set by higher heirarchy.                          |     8     |
-|    Visitor    | Default permissions.                                                                         |     9     |
-|   Spectator   | Spectates the world, lower than default permissions.                                         |    10     |
-|    Banned     | No access to the world.                                                                      |    11     |
+|     Owner     | Access to the permissions of their own world.                                                |     1     |
+|     Admin     | Access to the owner's world, but tied to selected commands and permissions set by the owner. |     2     |
+|    Builder    | Access to building and breaking blocks/props to the world.                                   |     3     |
+| Area Builder  | Same access as Builder but tied to a specific area.                                          |     4     |
+| World Booster | Access to specific commands or permissions set by higher heirarchy.                          |     5     |
+|    Visitor    | Default permissions.                                                                         |     6     |
+|   Spectator   | Spectates the world, lower than default permissions.                                         |     7     |
+|    Banned     | No access to the world.                                                                      |     8     |
 
 ## World Access Settings
 

@@ -4,4 +4,4 @@
 
 ## Functionality
 
-It teleports the player to the center of the triggered Prop.
+It teleports the player to the center-above of the triggered Prop.
